@@ -3,7 +3,7 @@
 
 from flask import Flask,render_template, request
 #import mysql.connector
-# import reconocimiento as rc
+import reconocimiento as rc
 
 app = Flask(__name__)
 
@@ -62,7 +62,7 @@ def index():
 
 @app.route('/intro')
 def intro():
-    # rc.main()
+    rc.main()
     return render_template('intro.html')
 
 @app.route('/detalle')
