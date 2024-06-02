@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS de B.S.-->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+
+    <!-- CSS de F.A.-->
+    <link rel="stylesheet" href="/static/css/all.min.css">
+
+    <!-- Fuente de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Estilos del css-->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Nukaya</title>
+</head>
+<body>
+    <!-- Comienzo de navegación-->
+    <nav class="navbar navbar-expand-sm navbar-dark espaciao fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="intro">Nukaya</a>
+        <span class="navbar-text">Aprendizaje para todos</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav custom-nav espaciao">
+            <li class="nav-item custom-nav-item"><a href="/admin" class="nav-link">Admin</a></li>
+            <li class="nav-item custom-nav-item"><a href="courses" class="nav-link">Cursos</a></li>
+            <li class="nav-item custom-nav-item"><a href="Student/studentProfile.php" class="nav-link">Mi Perfil</a></li>
+            <li class="nav-item custom-nav-item" data-bs-toggle="modal" data-bs-target="#stuLoginModalCenter"><a href="#" class="nav-link">Iniciar Sesión</a></li>
+            <li class="nav-item custom-nav-item" data-bs-toggle="modal" data-bs-target="#stuRegModalCenter"><a href="#" class="nav-link">Registro</a></li>
+            <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Feedback</a></li>
+            <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            <li class="nav-item custom-nav-item"><a href="#" class="nav-link disabled">Texto a Audio</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <div class="container-fluid bg-dark">
+    <div class="row">
+        <img src="static/images/cursobanner.jpg" alt="bannercurso" style="height: 250px; width: 100%; object-fit:cover; box-shadow:10px;">
+    </div>
+</div>
+    <!-- Fin banner cursos-->
+
+    <!-- Todos los cursos-->
+<div class="container mt-5">
+  <h1 class="text-center">Bienvenido</h1>
+
+  <!--Primer grupo-->
+  <div class="trymar row row-cols-2 row-cols-lg-3 justify-content-between mt-5">
+    <div class="col">
+      <div class="card">
+        <img src="static/images/Teoria2.png" class="card-img-top" alt="Teoría musical">
+        <div class="card-body">
+        <h5 class="card-title">Aprende la teoría de la música</h5>
+          <p class="card-text">El origen de las notas, la partitura, y expresión.</p>
+        </div>
+        <div class="card-footer">
+          <!-- <p class="card-text">Precio: <small><del>&#8377 2000 </del></small><span class="font-weight-bolder">&#8377 200</span></p> -->
+          <a class="btn btn-primary text-white font-weight-bolder float-end" href="detalle">Inscribirse</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="static/images/Canto2.png" class="card-img-top" alt="Teoría musical">
+        <div class="card-body">
+        <h5 class="card-title">Aprende rítmica musical</h5>
+          <p class="card-text">Los silencios, las corcheas, todo lo que quieres saber sobre rítmica.</p>
+        </div>
+        <div class="card-footer">
+          <!-- <p class="card-text">Precio: <small><del>&#8377 2000 </del></small><span class="font-weight-bolder">&#8377 200</span></p> -->
+          <a class="btn btn-primary text-white font-weight-bolder float-end" href="coursedetails.php">Inscribirse</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del primer grupo-->
+
+  <div class="trymar row row-cols-2 row-cols-lg-3 justify-content-between mt-5">
+    <div class="col">
+      <div class="card">
+        <img src="static/images/Armonia2.png" class="card-img-top" alt="Teoría musical">
+        <div class="card-body">
+        <h5 class="card-title">Aprende la teoría de la música</h5>
+          <p class="card-text">El origen de las notas, la partitura, y expresión.</p>
+        </div>
+        <div class="card-footer">
+          <!-- <p class="card-text">Precio: <small><del>&#8377 2000 </del></small><span class="font-weight-bolder">&#8377 200</span></p> -->
+          <a class="btn btn-primary text-white font-weight-bolder float-end" href="detalle">Inscribirse</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="static/images/Historia2.jpeg" class="card-img-top" alt="Teoría musical">
+        <div class="card-body">
+        <h5 class="card-title">Aprende rítmica musical</h5>
+          <p class="card-text">Los silencios, las corcheas, todo lo que quieres saber sobre rítmica.</p>
+        </div>
+        <div class="card-footer">
+          <!-- <p class="card-text">Precio: <small><del>&#8377 2000 </del></small><span class="font-weight-bolder">&#8377 200</span></p> -->
+          <a class="btn btn-primary text-white font-weight-bolder float-end" href="coursedetails.php">Inscribirse</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del primer grupo-->
+
+
+
+  <div class="text-center m-2">
+    <a href="#" class="btn btn-danger btn-sm">Ver todos los cursos</a>
+  </div>
+</div>
+<!--Footer-->
+<footer class="container-fluid bg-dark text-center p-2">
+        <small class="text-white">Copyright &copy; 2023 || Diseñado por Hendrick Córdova || <a href="admin" data-bs-toggle="modal" data-bs-target="#adminLoginModalCenter">Admin Login</a></small>
+    </footer>
+    <!--Fin Footer-->
+
+    <!--Registro estudiantes-->
+    <!--Botón modal-->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="stuRegModalCenter" tabindex="-1" aria-labelledby="stuRegModalCenterLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="stuRegModalCenterLabel">Registro de estudiante</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+            <!-- inicio de registro de estudiante-->
+            <?php include('studentRegistration.php')?>
+            <!-- Fin de registro de estudiante-->
+        </div>
+        <div class="modal-footer">
+            <span id="successMsg"></span>
+            <button type="button" class="btn btn-primary" onclick="addStu()" id="signup">Registrarse</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal de sesión-->
+    <div class="modal fade" id="stuLoginModalCenter" tabindex="-1" aria-labelledby="stuLoginModalCenterLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="stuLoginModalCenterLabel">Inicio de sesión de estudiante</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+            <!-- inicio de sesión de estudiante-->
+            <form id="stuLoginForm">
+                <div class="form-group">
+                    <i class="fas fa-envelope"></i>
+                    <label for="stuLogemail" class="pl-2 font-weight-bold">Correo electrónico</label>
+                    <input type="email" class="form-control" id="stuLogemail" name="stuLogemail" placeholder="Correo electrónico">
+                </div>
+                <br>
+                <div class="form-group">
+                    <i class="fas fa-key"></i>
+                    <label for="stuLogpass" class="pl-2 font-weight-bold">Contraseña</label>
+                    <input type="password" class="form-control" id="stuLogpass" name="stuLogpass" placeholder="Contraseña">
+                </div>
+            </form>
+            <!-- fin de sesión de estudiante-->
+        </div>
+        <div class="modal-footer">
+            <small id="statusLogMsg"></small>
+            <button type="button" class="btn btn-primary" id="stuLoginBtn" onclick="window.location.href='courses'">Ingresar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal de admin-->
+    <!--<div class="modal fade" id="adminLoginModalCenter" tabindex="-1" aria-labelledby="adminLoginModalCenterLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="adminLoginModalCenterLabel">Inicio de sesión de admin</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+            <!-- inicio de sesión de admin-->
+            <!-- fin de sesión de admin-->
+        <!--</div>-->
+
+
+
+
+<!-- JS de Jquery y BS-->
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS de F.A.-->
+<script src="static/js/all.min.js"></script>
+
+<!-- JS de Ajax-->
+<script type="text/javascript" src="static/js/ajaxrequest.js"></script>
+
+<!-- JS de Ajax
+<script type="text/javascript" src="js/adminajaxrequest.js"></script> -->
+</body>
+</html>

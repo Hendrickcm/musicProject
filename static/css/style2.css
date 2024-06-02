@@ -1,0 +1,17 @@
+body{
+    margin: 2em;
+}
+table{
+    margin: 2em;
+    border-collapse: collapse;
+    border-color: black
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+th{
+    padding-right: 3em;
+}
+td{
+    padding: .5em;
+}
